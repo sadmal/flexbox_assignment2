@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+}
+.menu .div2 a{
+    text-decoration: none;
+    padding-top: 50px;
+    margin-right: 25px;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+.div1{
+    color: rgb(18, 137, 235);
+    margin-left: 20px;
+    margin-bottom: 10px;
+    }
+ .div2 .btn1 , .div4 .btn3{
+    color:white;
+    background-color: red;
+    border: none;
+    margin-right: 20px;
+    font-size:small;
+    padding: 5px;
+    font-weight: bold;
+}   
+.intro{
+    display: flex;
+    background-color: antiquewhite;
+    
+}
+.intro .div3 .img1{
+    width: 550px;
+    height: 500px;
+    margin: 20px;
+}
+.intro .div4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+.div4 .btn2,.div5 .btn4{
+    color:white;
+    background-color: rgb(30, 42, 211);
+    border: none;
+    margin-right: 20px;
+    font-size:small;
+    padding: 5px;
+    font-weight: bold;
+    
+}
+.div4 .head1{
+    color: red;
+    font-size:60px;
+    font-weight: bold;
+}
+.div4 .para1{
+    font-style:italic;
+}
+.section1{
+    display: flex;
+    height: 100vh;
+}
+.section1 .div5{
+   padding-top: 200px;
+   padding-right: 20px;
+   padding-bottom: 300px;
+   padding-left: 40px;
+}
+.section1 .div5 .head2{
+    font-size: 60px;
+    font-weight: bold;
+}
+.section1 .div6{
+    padding-top: 200px;
+    padding-right: 20px;
+    padding-bottom: 300px;
+    padding-left: 150px;
+}
+.section1 .div6 .para3,.section1 .div6 .para4{
+    padding-bottom: 40px;
+
+}
+.section2{
+    height: 100vh;
+    background-color: rgb(184, 180, 206);
+}
+.section2 .div9 img{
+    width: 250px;
+    display: flex;
+}
+.section2 .div9{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+.section2 .div7 .head3{
+    color: red;
+    font-size: 60px;
+    font-weight: bold;
+}
+.section2 .div7{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    
+}
+.section2 .div8 .para6{
+    display: flex;
+    justify-content: center;
+}
+.section3{
+    height: 100vh;
+    display: flex;
+}
+.section3 .div10 .img2{
+   
+    width: 550px;
+    height: 600px;
+    margin: 20px;
+}
+.section3 .div11{
+    /* display: flex; */
+    flex-direction: column;
+    /* justify-content: center; */
+    /* text-align: center; */
+    padding-top: 40px;
+}
+.section3 .div11 .head4{
+    color: red;
+    font-size: 35px;
+    font-weight: bold;
+}
